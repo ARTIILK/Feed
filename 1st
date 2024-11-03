@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Mobile Safari/537.36" version="24.8.3">
   <diagram id="jw_ge8eQjHWgkUCkJpAw" name="Page-1">
-    <mxGraphModel dx="1552" dy="1052" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" background="#000033" math="0" shadow="1">
+    <mxGraphModel dx="1275" dy="1280" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" background="#000033" math="0" shadow="1">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -26,42 +26,57 @@
             <mxPoint x="250" y="-130" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="lLdtfaTAbPaAALJwcepO-9" value="Try to connect with all sensors and devices" style="whiteSpace=wrap;html=1;strokeColor=#D0CEE2;fontColor=#1A1A1A;fillColor=#5D7F99;" vertex="1" parent="1">
-          <mxGeometry x="-90" y="40" width="120" height="30" as="geometry" />
+        <mxCell id="lLdtfaTAbPaAALJwcepO-27" value="Initialise on board wifi module&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#5D7F99;strokeColor=#D0CEE2;fontColor=#1A1A1A;" vertex="1" parent="1">
+          <mxGeometry x="-330" y="-170" width="120" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="lLdtfaTAbPaAALJwcepO-10" value="Try to connect with&amp;nbsp;&lt;div&gt;all sensors and devices&lt;/div&gt;&lt;div&gt;Using WiFi and blutooth&amp;nbsp;&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;strokeColor=#736CA8;fontColor=#1A1A1A;curved=1;" edge="1" parent="1" source="lLdtfaTAbPaAALJwcepO-6" target="lLdtfaTAbPaAALJwcepO-9">
-          <mxGeometry x="0.0357" y="5" width="100" relative="1" as="geometry">
-            <mxPoint x="140" y="-80" as="sourcePoint" />
-            <mxPoint x="240" y="-80" as="targetPoint" />
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="lLdtfaTAbPaAALJwcepO-15" value="" style="swimlane;startSize=0;strokeColor=#D0CEE2;fontColor=#1A1A1A;fillColor=#5D7F99;" vertex="1" parent="1">
-          <mxGeometry x="-840" y="280" width="570" height="180" as="geometry" />
-        </mxCell>
-        <mxCell id="lLdtfaTAbPaAALJwcepO-16" value="DUST SENSOR&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#D0CEE2;fontColor=#1A1A1A;fillColor=#5D7F99;" vertex="1" parent="lLdtfaTAbPaAALJwcepO-15">
-          <mxGeometry x="10" y="20" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="lLdtfaTAbPaAALJwcepO-23" value="Light sensor&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#5D7F99;strokeColor=#D0CEE2;fontColor=#1A1A1A;" vertex="1" parent="lLdtfaTAbPaAALJwcepO-15">
-          <mxGeometry x="290" y="20" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="lLdtfaTAbPaAALJwcepO-25" value="Fit band&lt;div&gt;/&lt;div&gt;smart watch&amp;nbsp;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#D0CEE2;fontColor=#1A1A1A;fillColor=#5D7F99;" vertex="1" parent="lLdtfaTAbPaAALJwcepO-15">
-          <mxGeometry x="10" y="100" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="lLdtfaTAbPaAALJwcepO-29" value="A mini server&lt;div&gt;Or&lt;/div&gt;&lt;div&gt;A home pc&amp;nbsp;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#5D7F99;strokeColor=#D0CEE2;fontColor=#1A1A1A;arcSize=0;" vertex="1" parent="lLdtfaTAbPaAALJwcepO-15">
-          <mxGeometry x="430" y="100" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="lLdtfaTAbPaAALJwcepO-19" value="Temperature&amp;nbsp;&lt;div&gt;&amp;amp;&lt;/div&gt;&lt;div&gt;Humidity sensor&amp;nbsp;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#D0CEE2;fontColor=#1A1A1A;fillColor=#5D7F99;" vertex="1" parent="lLdtfaTAbPaAALJwcepO-15">
-          <mxGeometry x="150" y="100" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="lLdtfaTAbPaAALJwcepO-17" value="Cctv thermals Camera&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#D0CEE2;fontColor=#1A1A1A;fillColor=#5D7F99;" vertex="1" parent="lLdtfaTAbPaAALJwcepO-15">
-          <mxGeometry x="150" y="20" width="120" height="60" as="geometry" />
+        <mxCell id="lLdtfaTAbPaAALJwcepO-29" value="A mini server&lt;div&gt;Or&lt;/div&gt;&lt;div&gt;A home pc&amp;nbsp;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#D0CEE2;fontColor=#1A1A1A;fillColor=#5D7F99;" vertex="1" parent="1">
+          <mxGeometry x="-410" y="430" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="lLdtfaTAbPaAALJwcepO-21" value="WiFi router&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#D0CEE2;fontColor=#1A1A1A;fillColor=#5D7F99;" vertex="1" parent="1">
-          <mxGeometry x="-550" y="380" width="120" height="60" as="geometry" />
+          <mxGeometry x="-550" y="430" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="lLdtfaTAbPaAALJwcepO-27" value="Initialise on board wifi module&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#5D7F99;strokeColor=#D0CEE2;fontColor=#1A1A1A;" vertex="1" parent="1">
-          <mxGeometry x="-410" y="300" width="120" height="60" as="geometry" />
+        <mxCell id="lLdtfaTAbPaAALJwcepO-23" value="Light sensor&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#5D7F99;strokeColor=#D0CEE2;fontColor=#1A1A1A;" vertex="1" parent="1">
+          <mxGeometry x="-110" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lLdtfaTAbPaAALJwcepO-17" value="Cctv thermals Camera&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#D0CEE2;fontColor=#1A1A1A;fillColor=#5D7F99;" vertex="1" parent="1">
+          <mxGeometry x="-270" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lLdtfaTAbPaAALJwcepO-19" value="Temperature&amp;nbsp;&lt;div&gt;&amp;amp;&lt;/div&gt;&lt;div&gt;Humidity sensor&amp;nbsp;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#D0CEE2;fontColor=#1A1A1A;fillColor=#5D7F99;" vertex="1" parent="1">
+          <mxGeometry x="30" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lLdtfaTAbPaAALJwcepO-25" value="Fit band&lt;div&gt;/&lt;div&gt;smart watch&amp;nbsp;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#D0CEE2;fontColor=#1A1A1A;fillColor=#5D7F99;" vertex="1" parent="1">
+          <mxGeometry x="-690" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lLdtfaTAbPaAALJwcepO-16" value="DUST SENSOR&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#D0CEE2;fontColor=#1A1A1A;fillColor=#5D7F99;" vertex="1" parent="1">
+          <mxGeometry x="170" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lLdtfaTAbPaAALJwcepO-33" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;startArrow=classic;endSize=8;startSize=8;rounded=0;strokeColor=#736CA8;fontColor=#1A1A1A;" edge="1" parent="1" source="lLdtfaTAbPaAALJwcepO-27" target="lLdtfaTAbPaAALJwcepO-6">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="-220" y="-145.5" as="sourcePoint" />
+            <mxPoint x="30" y="-145.5" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lLdtfaTAbPaAALJwcepO-34" value="Try to connect with&amp;nbsp;&lt;div&gt;all sensors and devices&lt;/div&gt;&lt;div&gt;Using WiFi and blutooth&amp;nbsp;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];strokeColor=#D0CEE2;fontColor=#1A1A1A;fillColor=#5D7F99;" vertex="1" connectable="0" parent="lLdtfaTAbPaAALJwcepO-33">
+          <mxGeometry x="-0.016" y="3" relative="1" as="geometry">
+            <mxPoint x="-3" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lLdtfaTAbPaAALJwcepO-35" value="" style="edgeStyle=orthogonalEdgeStyle;endArrow=classic;html=1;curved=1;rounded=0;endSize=8;startSize=8;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;strokeColor=#736CA8;fontColor=#1A1A1A;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="lLdtfaTAbPaAALJwcepO-27" target="lLdtfaTAbPaAALJwcepO-21">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="-270" y="-20" as="sourcePoint" />
+            <mxPoint x="-430" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lLdtfaTAbPaAALJwcepO-37" value="" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;strokeColor=#736CA8;fontColor=#1A1A1A;curved=1;" edge="1" parent="1" source="lLdtfaTAbPaAALJwcepO-21" target="lLdtfaTAbPaAALJwcepO-17">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="-520" y="570" as="sourcePoint" />
+            <mxPoint x="-420" y="570" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-490" y="680" />
+              <mxPoint x="-210" y="680" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
